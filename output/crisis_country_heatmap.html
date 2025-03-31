@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0f27e6550fc8078166d3fee06cc4abf3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0f27e6550fc8078166d3fee06cc4abf3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0f27e6550fc8078166d3fee06cc4abf3 = L.map(
+                "map_0f27e6550fc8078166d3fee06cc4abf3",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9d963c379647ac2a0573f845a0054847 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_9d963c379647ac2a0573f845a0054847.addTo(map_0f27e6550fc8078166d3fee06cc4abf3);
+        
+    
+            var marker_7eb85f321f9f5bd4b2f557592e6bef62 = L.marker(
+                [39.7837304, -100.445882],
+                {
+}
+            ).addTo(map_0f27e6550fc8078166d3fee06cc4abf3);
+        
+    
+        var popup_0920700ae116e91587ee8943b5cfaae0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e284bd1dc439a15f67817f22feb4f7fb = $(`<div id="html_e284bd1dc439a15f67817f22feb4f7fb" style="width: 100.0%; height: 100.0%;">America: 1 crisis discussions</div>`)[0];
+                popup_0920700ae116e91587ee8943b5cfaae0.setContent(html_e284bd1dc439a15f67817f22feb4f7fb);
+            
+        
+
+        marker_7eb85f321f9f5bd4b2f557592e6bef62.bindPopup(popup_0920700ae116e91587ee8943b5cfaae0)
+        ;
+
+        
+    
+    
+            marker_7eb85f321f9f5bd4b2f557592e6bef62.bindTooltip(
+                `<div>
+                     America - 1 posts
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a00a030450bd4f446dcf88d21384e79e = L.marker(
+                [-24.7761086, 134.755],
+                {
+}
+            ).addTo(map_0f27e6550fc8078166d3fee06cc4abf3);
+        
+    
+        var popup_a4f64ab42bc3a22494b93cb47432818e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5de9abd99f82641dc8275fd7f822c35b = $(`<div id="html_5de9abd99f82641dc8275fd7f822c35b" style="width: 100.0%; height: 100.0%;">Australia: 2 crisis discussions</div>`)[0];
+                popup_a4f64ab42bc3a22494b93cb47432818e.setContent(html_5de9abd99f82641dc8275fd7f822c35b);
+            
+        
+
+        marker_a00a030450bd4f446dcf88d21384e79e.bindPopup(popup_a4f64ab42bc3a22494b93cb47432818e)
+        ;
+
+        
+    
+    
+            marker_a00a030450bd4f446dcf88d21384e79e.bindTooltip(
+                `<div>
+                     Australia - 2 posts
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2eee6bc25c7153ddf8025758677ff046 = L.marker(
+                [61.0666922, -107.991707],
+                {
+}
+            ).addTo(map_0f27e6550fc8078166d3fee06cc4abf3);
+        
+    
+        var popup_da4ff72ccba24bf3f71e0d59adb62f95 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf727a61ad859f311759408819ba93c0 = $(`<div id="html_bf727a61ad859f311759408819ba93c0" style="width: 100.0%; height: 100.0%;">Canada: 1 crisis discussions</div>`)[0];
+                popup_da4ff72ccba24bf3f71e0d59adb62f95.setContent(html_bf727a61ad859f311759408819ba93c0);
+            
+        
+
+        marker_2eee6bc25c7153ddf8025758677ff046.bindPopup(popup_da4ff72ccba24bf3f71e0d59adb62f95)
+        ;
+
+        
+    
+    
+            marker_2eee6bc25c7153ddf8025758677ff046.bindTooltip(
+                `<div>
+                     Canada - 1 posts
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6be8227fdc419327eea9616a4eb34b46 = L.marker(
+                [26.2540493, 29.2675469],
+                {
+}
+            ).addTo(map_0f27e6550fc8078166d3fee06cc4abf3);
+        
+    
+        var popup_8819d00fb9b02cb053f1acf069abca04 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a91b1cd4fe950e2acdb74d97862beab0 = $(`<div id="html_a91b1cd4fe950e2acdb74d97862beab0" style="width: 100.0%; height: 100.0%;">Egypt: 1 crisis discussions</div>`)[0];
+                popup_8819d00fb9b02cb053f1acf069abca04.setContent(html_a91b1cd4fe950e2acdb74d97862beab0);
+            
+        
+
+        marker_6be8227fdc419327eea9616a4eb34b46.bindPopup(popup_8819d00fb9b02cb053f1acf069abca04)
+        ;
+
+        
+    
+    
+            marker_6be8227fdc419327eea9616a4eb34b46.bindTooltip(
+                `<div>
+                     Egypt - 1 posts
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_da3e770a07392b9dd9fdeaded9e282f5 = L.marker(
+                [46.603354, 1.8883335],
+                {
+}
+            ).addTo(map_0f27e6550fc8078166d3fee06cc4abf3);
+        
+    
+        var popup_448c5b576e43a2c681a76070a7ab70df = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_29a70b2ca9658bd95329667a9809abb8 = $(`<div id="html_29a70b2ca9658bd95329667a9809abb8" style="width: 100.0%; height: 100.0%;">France: 1 crisis discussions</div>`)[0];
+                popup_448c5b576e43a2c681a76070a7ab70df.setContent(html_29a70b2ca9658bd95329667a9809abb8);
+            
+        
+
+        marker_da3e770a07392b9dd9fdeaded9e282f5.bindPopup(popup_448c5b576e43a2c681a76070a7ab70df)
+        ;
+
+        
+    
+    
+            marker_da3e770a07392b9dd9fdeaded9e282f5.bindTooltip(
+                `<div>
+                     France - 1 posts
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d75f0612415939d53ae4e4459b8fab39 = L.marker(
+                [-35.5179821, -61.0012823],
+                {
+}
+            ).addTo(map_0f27e6550fc8078166d3fee06cc4abf3);
+        
+    
+        var popup_72f4c4c8db146b0392e77954833bb340 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e38ad08ec0428c24163beada515d83df = $(`<div id="html_e38ad08ec0428c24163beada515d83df" style="width: 100.0%; height: 100.0%;">French: 2 crisis discussions</div>`)[0];
+                popup_72f4c4c8db146b0392e77954833bb340.setContent(html_e38ad08ec0428c24163beada515d83df);
+            
+        
+
+        marker_d75f0612415939d53ae4e4459b8fab39.bindPopup(popup_72f4c4c8db146b0392e77954833bb340)
+        ;
+
+        
+    
+    
+            marker_d75f0612415939d53ae4e4459b8fab39.bindTooltip(
+                `<div>
+                     French - 2 posts
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8ea166c665218d7105ec5b4aa4757566 = L.marker(
+                [51.1638175, 10.4478313],
+                {
+}
+            ).addTo(map_0f27e6550fc8078166d3fee06cc4abf3);
+        
+    
+        var popup_b070b12c19e283c8b0daed0aedeca997 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8a24de9fd6334af6314100475f51c79c = $(`<div id="html_8a24de9fd6334af6314100475f51c79c" style="width: 100.0%; height: 100.0%;">Germany: 1 crisis discussions</div>`)[0];
+                popup_b070b12c19e283c8b0daed0aedeca997.setContent(html_8a24de9fd6334af6314100475f51c79c);
+            
+        
+
+        marker_8ea166c665218d7105ec5b4aa4757566.bindPopup(popup_b070b12c19e283c8b0daed0aedeca997)
+        ;
+
+        
+    
+    
+            marker_8ea166c665218d7105ec5b4aa4757566.bindTooltip(
+                `<div>
+                     Germany - 1 posts
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_868e427b5ce8a15f2beab00e44a7d74c = L.marker(
+                [23.6585116, -102.0077097],
+                {
+}
+            ).addTo(map_0f27e6550fc8078166d3fee06cc4abf3);
+        
+    
+        var popup_5961d8c9eecc30c600ab43c3cd745d8c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf78a6f7f22c3de4afe91f01d6a48a69 = $(`<div id="html_bf78a6f7f22c3de4afe91f01d6a48a69" style="width: 100.0%; height: 100.0%;">Mexico: 1 crisis discussions</div>`)[0];
+                popup_5961d8c9eecc30c600ab43c3cd745d8c.setContent(html_bf78a6f7f22c3de4afe91f01d6a48a69);
+            
+        
+
+        marker_868e427b5ce8a15f2beab00e44a7d74c.bindPopup(popup_5961d8c9eecc30c600ab43c3cd745d8c)
+        ;
+
+        
+    
+    
+            marker_868e427b5ce8a15f2beab00e44a7d74c.bindTooltip(
+                `<div>
+                     Mexico - 1 posts
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_64f089aa30c7a9f3344431e618d39251 = L.marker(
+                [-6.8699697, -75.0458515],
+                {
+}
+            ).addTo(map_0f27e6550fc8078166d3fee06cc4abf3);
+        
+    
+        var popup_1080ea0976a265b6b5c77d103737d710 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cbff635519a91f747d5fb0967e20fc34 = $(`<div id="html_cbff635519a91f747d5fb0967e20fc34" style="width: 100.0%; height: 100.0%;">Peru: 1 crisis discussions</div>`)[0];
+                popup_1080ea0976a265b6b5c77d103737d710.setContent(html_cbff635519a91f747d5fb0967e20fc34);
+            
+        
+
+        marker_64f089aa30c7a9f3344431e618d39251.bindPopup(popup_1080ea0976a265b6b5c77d103737d710)
+        ;
+
+        
+    
+    
+            marker_64f089aa30c7a9f3344431e618d39251.bindTooltip(
+                `<div>
+                     Peru - 1 posts
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a682ce0cfb6c5c0992db13a937c1897b = L.marker(
+                [46.193239, -82.347307],
+                {
+}
+            ).addTo(map_0f27e6550fc8078166d3fee06cc4abf3);
+        
+    
+        var popup_affe9880fe2814c1dc20ca285f9af806 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0ec066641f16d9858f966b8526488ba6 = $(`<div id="html_0ec066641f16d9858f966b8526488ba6" style="width: 100.0%; height: 100.0%;">Spanish: 1 crisis discussions</div>`)[0];
+                popup_affe9880fe2814c1dc20ca285f9af806.setContent(html_0ec066641f16d9858f966b8526488ba6);
+            
+        
+
+        marker_a682ce0cfb6c5c0992db13a937c1897b.bindPopup(popup_affe9880fe2814c1dc20ca285f9af806)
+        ;
+
+        
+    
+    
+            marker_a682ce0cfb6c5c0992db13a937c1897b.bindTooltip(
+                `<div>
+                     Spanish - 1 posts
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a685ec0a694a8bdbfa92c6337df6fdb8 = L.marker(
+                [46.7985624, 8.2319736],
+                {
+}
+            ).addTo(map_0f27e6550fc8078166d3fee06cc4abf3);
+        
+    
+        var popup_b6a2e0394de7bef8d0c58caa236aad6e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_285a66235439ffec72b883f5bf6c13c4 = $(`<div id="html_285a66235439ffec72b883f5bf6c13c4" style="width: 100.0%; height: 100.0%;">Swiss: 1 crisis discussions</div>`)[0];
+                popup_b6a2e0394de7bef8d0c58caa236aad6e.setContent(html_285a66235439ffec72b883f5bf6c13c4);
+            
+        
+
+        marker_a685ec0a694a8bdbfa92c6337df6fdb8.bindPopup(popup_b6a2e0394de7bef8d0c58caa236aad6e)
+        ;
+
+        
+    
+    
+            marker_a685ec0a694a8bdbfa92c6337df6fdb8.bindTooltip(
+                `<div>
+                     Swiss - 1 posts
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_dd6b9aada6602d84269e1b32533f6785 = L.marker(
+                [46.7985624, 8.2319736],
+                {
+}
+            ).addTo(map_0f27e6550fc8078166d3fee06cc4abf3);
+        
+    
+        var popup_5c73aa323107834e59863fcfa1c82cc9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c712530e792680e756a862a387b8d99 = $(`<div id="html_0c712530e792680e756a862a387b8d99" style="width: 100.0%; height: 100.0%;">Switzerland: 1 crisis discussions</div>`)[0];
+                popup_5c73aa323107834e59863fcfa1c82cc9.setContent(html_0c712530e792680e756a862a387b8d99);
+            
+        
+
+        marker_dd6b9aada6602d84269e1b32533f6785.bindPopup(popup_5c73aa323107834e59863fcfa1c82cc9)
+        ;
+
+        
+    
+    
+            marker_dd6b9aada6602d84269e1b32533f6785.bindTooltip(
+                `<div>
+                     Switzerland - 1 posts
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_578b112be120a36f06d5d59b146ade26 = L.marker(
+                [6.3110548, 20.5447525],
+                {
+}
+            ).addTo(map_0f27e6550fc8078166d3fee06cc4abf3);
+        
+    
+        var popup_2c3a05f8396f96990d644e32e4493309 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_44fa5843672c5af27b36a029bdf2c08d = $(`<div id="html_44fa5843672c5af27b36a029bdf2c08d" style="width: 100.0%; height: 100.0%;">UK: 2 crisis discussions</div>`)[0];
+                popup_2c3a05f8396f96990d644e32e4493309.setContent(html_44fa5843672c5af27b36a029bdf2c08d);
+            
+        
+
+        marker_578b112be120a36f06d5d59b146ade26.bindPopup(popup_2c3a05f8396f96990d644e32e4493309)
+        ;
+
+        
+    
+    
+            marker_578b112be120a36f06d5d59b146ade26.bindTooltip(
+                `<div>
+                     UK - 2 posts
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0c7bfb747c336dc2a0099722bcbd2d01 = L.marker(
+                [39.7837304, -100.445882],
+                {
+}
+            ).addTo(map_0f27e6550fc8078166d3fee06cc4abf3);
+        
+    
+        var popup_b775dab416f8938f56376d584bab2488 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4286b0360cdf08d018d65abe1a5e2d68 = $(`<div id="html_4286b0360cdf08d018d65abe1a5e2d68" style="width: 100.0%; height: 100.0%;">US: 3 crisis discussions</div>`)[0];
+                popup_b775dab416f8938f56376d584bab2488.setContent(html_4286b0360cdf08d018d65abe1a5e2d68);
+            
+        
+
+        marker_0c7bfb747c336dc2a0099722bcbd2d01.bindPopup(popup_b775dab416f8938f56376d584bab2488)
+        ;
+
+        
+    
+    
+            marker_0c7bfb747c336dc2a0099722bcbd2d01.bindTooltip(
+                `<div>
+                     US - 3 posts
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_58740d8cddf453a1b55d9fb060f9af52 = L.marker(
+                [49.4871968, 31.2718321],
+                {
+}
+            ).addTo(map_0f27e6550fc8078166d3fee06cc4abf3);
+        
+    
+        var popup_c98a3dcaf6efb65155069458cafdbe63 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31a603f79d082e870a39f95253f8cad6 = $(`<div id="html_31a603f79d082e870a39f95253f8cad6" style="width: 100.0%; height: 100.0%;">Ukraine: 1 crisis discussions</div>`)[0];
+                popup_c98a3dcaf6efb65155069458cafdbe63.setContent(html_31a603f79d082e870a39f95253f8cad6);
+            
+        
+
+        marker_58740d8cddf453a1b55d9fb060f9af52.bindPopup(popup_c98a3dcaf6efb65155069458cafdbe63)
+        ;
+
+        
+    
+    
+            marker_58740d8cddf453a1b55d9fb060f9af52.bindTooltip(
+                `<div>
+                     Ukraine - 1 posts
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9605bd894be93f981394301c7709ea2d = L.marker(
+                [-8.4305889, 115.23368569206687],
+                {
+}
+            ).addTo(map_0f27e6550fc8078166d3fee06cc4abf3);
+        
+    
+        var popup_d416505e3a2c943830ac9e1ece0ed0ae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ae5df5df5ec5ecf1f6e71c799afc9f93 = $(`<div id="html_ae5df5df5ec5ecf1f6e71c799afc9f93" style="width: 100.0%; height: 100.0%;">chinese: 1 crisis discussions</div>`)[0];
+                popup_d416505e3a2c943830ac9e1ece0ed0ae.setContent(html_ae5df5df5ec5ecf1f6e71c799afc9f93);
+            
+        
+
+        marker_9605bd894be93f981394301c7709ea2d.bindPopup(popup_d416505e3a2c943830ac9e1ece0ed0ae)
+        ;
+
+        
+    
+    
+            marker_9605bd894be93f981394301c7709ea2d.bindTooltip(
+                `<div>
+                     chinese - 1 posts
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e9a027c1b8ff0467f2186a42aa267f34 = L.marker(
+                [-35.5179821, -61.0012823],
+                {
+}
+            ).addTo(map_0f27e6550fc8078166d3fee06cc4abf3);
+        
+    
+        var popup_0ad8521aeca9621e1b81432d74c09ea3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4c94fd709f9af130074227b8c3cc2cb = $(`<div id="html_f4c94fd709f9af130074227b8c3cc2cb" style="width: 100.0%; height: 100.0%;">french: 1 crisis discussions</div>`)[0];
+                popup_0ad8521aeca9621e1b81432d74c09ea3.setContent(html_f4c94fd709f9af130074227b8c3cc2cb);
+            
+        
+
+        marker_e9a027c1b8ff0467f2186a42aa267f34.bindPopup(popup_0ad8521aeca9621e1b81432d74c09ea3)
+        ;
+
+        
+    
+    
+            marker_e9a027c1b8ff0467f2186a42aa267f34.bindTooltip(
+                `<div>
+                     french - 1 posts
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c44cf1da121e130fce146e6dbcd9bfc6 = L.marker(
+                [51.1638175, 10.4478313],
+                {
+}
+            ).addTo(map_0f27e6550fc8078166d3fee06cc4abf3);
+        
+    
+        var popup_8a7e803bc13574293762baa47e189cb1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e0f35aa89484a24252515472cd8b549b = $(`<div id="html_e0f35aa89484a24252515472cd8b549b" style="width: 100.0%; height: 100.0%;">germany: 1 crisis discussions</div>`)[0];
+                popup_8a7e803bc13574293762baa47e189cb1.setContent(html_e0f35aa89484a24252515472cd8b549b);
+            
+        
+
+        marker_c44cf1da121e130fce146e6dbcd9bfc6.bindPopup(popup_8a7e803bc13574293762baa47e189cb1)
+        ;
+
+        
+    
+    
+            marker_c44cf1da121e130fce146e6dbcd9bfc6.bindTooltip(
+                `<div>
+                     germany - 1 posts
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a504156052239062f8686a6f8a35328c = L.marker(
+                [10.7226226, -10.7083587],
+                {
+}
+            ).addTo(map_0f27e6550fc8078166d3fee06cc4abf3);
+        
+    
+        var popup_3c815f816dcb0c0ff876ac3156381924 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a87e132cacb09d219c39b54d558a2272 = $(`<div id="html_a87e132cacb09d219c39b54d558a2272" style="width: 100.0%; height: 100.0%;">guinea: 1 crisis discussions</div>`)[0];
+                popup_3c815f816dcb0c0ff876ac3156381924.setContent(html_a87e132cacb09d219c39b54d558a2272);
+            
+        
+
+        marker_a504156052239062f8686a6f8a35328c.bindPopup(popup_3c815f816dcb0c0ff876ac3156381924)
+        ;
+
+        
+    
+    
+            marker_a504156052239062f8686a6f8a35328c.bindTooltip(
+                `<div>
+                     guinea - 1 posts
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0b256cbb3c255451ed774a4b0ad6bde1 = L.marker(
+                [35.6639401, 139.6700217],
+                {
+}
+            ).addTo(map_0f27e6550fc8078166d3fee06cc4abf3);
+        
+    
+        var popup_fd7073ddc079263811a65caab81d44dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b2eeee8d2fabe66eecec10da420391d = $(`<div id="html_6b2eeee8d2fabe66eecec10da420391d" style="width: 100.0%; height: 100.0%;">mexican: 1 crisis discussions</div>`)[0];
+                popup_fd7073ddc079263811a65caab81d44dd.setContent(html_6b2eeee8d2fabe66eecec10da420391d);
+            
+        
+
+        marker_0b256cbb3c255451ed774a4b0ad6bde1.bindPopup(popup_fd7073ddc079263811a65caab81d44dd)
+        ;
+
+        
+    
+    
+            marker_0b256cbb3c255451ed774a4b0ad6bde1.bindTooltip(
+                `<div>
+                     mexican - 1 posts
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f3e4b9ef597d8c7d471dbf6b0cc07b42 = L.marker(
+                [46.7985624, 8.2319736],
+                {
+}
+            ).addTo(map_0f27e6550fc8078166d3fee06cc4abf3);
+        
+    
+        var popup_bb2c8c1d06f7b71b3f3cdf0c2a69ce49 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_efcda9a92fe7f19b07b9dd5c5ffa4fe6 = $(`<div id="html_efcda9a92fe7f19b07b9dd5c5ffa4fe6" style="width: 100.0%; height: 100.0%;">swiss: 1 crisis discussions</div>`)[0];
+                popup_bb2c8c1d06f7b71b3f3cdf0c2a69ce49.setContent(html_efcda9a92fe7f19b07b9dd5c5ffa4fe6);
+            
+        
+
+        marker_f3e4b9ef597d8c7d471dbf6b0cc07b42.bindPopup(popup_bb2c8c1d06f7b71b3f3cdf0c2a69ce49)
+        ;
+
+        
+    
+    
+            marker_f3e4b9ef597d8c7d471dbf6b0cc07b42.bindTooltip(
+                `<div>
+                     swiss - 1 posts
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4085dce06267e4b09e6664eed0d0ff58 = L.marker(
+                [39.294076, 35.2316631],
+                {
+}
+            ).addTo(map_0f27e6550fc8078166d3fee06cc4abf3);
+        
+    
+        var popup_00e8e7142b9b5cb575394d754a435885 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e630a05f90af94aa93e97289334637f = $(`<div id="html_9e630a05f90af94aa93e97289334637f" style="width: 100.0%; height: 100.0%;">turkey: 2 crisis discussions</div>`)[0];
+                popup_00e8e7142b9b5cb575394d754a435885.setContent(html_9e630a05f90af94aa93e97289334637f);
+            
+        
+
+        marker_4085dce06267e4b09e6664eed0d0ff58.bindPopup(popup_00e8e7142b9b5cb575394d754a435885)
+        ;
+
+        
+    
+    
+            marker_4085dce06267e4b09e6664eed0d0ff58.bindTooltip(
+                `<div>
+                     turkey - 2 posts
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e3a5f0a127cd370bb338d54e882ae54b = L.marker(
+                [6.3110548, 20.5447525],
+                {
+}
+            ).addTo(map_0f27e6550fc8078166d3fee06cc4abf3);
+        
+    
+        var popup_7b4d08f0ddd80c06b9895fe62669acce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_224eb6899724fa9419c1fa394b71d170 = $(`<div id="html_224eb6899724fa9419c1fa394b71d170" style="width: 100.0%; height: 100.0%;">uk: 1 crisis discussions</div>`)[0];
+                popup_7b4d08f0ddd80c06b9895fe62669acce.setContent(html_224eb6899724fa9419c1fa394b71d170);
+            
+        
+
+        marker_e3a5f0a127cd370bb338d54e882ae54b.bindPopup(popup_7b4d08f0ddd80c06b9895fe62669acce)
+        ;
+
+        
+    
+    
+            marker_e3a5f0a127cd370bb338d54e882ae54b.bindTooltip(
+                `<div>
+                     uk - 1 posts
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0899d942b5c9cd9891610cdc8ee57c98 = L.marker(
+                [39.7837304, -100.445882],
+                {
+}
+            ).addTo(map_0f27e6550fc8078166d3fee06cc4abf3);
+        
+    
+        var popup_d85a33f5378f5b7174d8f003a29bee37 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2bacc53288429213bbe0fb748c1ced5a = $(`<div id="html_2bacc53288429213bbe0fb748c1ced5a" style="width: 100.0%; height: 100.0%;">us: 37 crisis discussions</div>`)[0];
+                popup_d85a33f5378f5b7174d8f003a29bee37.setContent(html_2bacc53288429213bbe0fb748c1ced5a);
+            
+        
+
+        marker_0899d942b5c9cd9891610cdc8ee57c98.bindPopup(popup_d85a33f5378f5b7174d8f003a29bee37)
+        ;
+
+        
+    
+    
+            marker_0899d942b5c9cd9891610cdc8ee57c98.bindTooltip(
+                `<div>
+                     us - 37 posts
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var heat_map_b4a0ba653eb1511f038a1c84e9550f0f = L.heatLayer(
+                [[39.7837304, -100.445882, 0.2702702702702703], [-24.7761086, 134.755, 0.5405405405405406], [61.0666922, -107.991707, 0.2702702702702703], [26.2540493, 29.2675469, 0.2702702702702703], [46.603354, 1.8883335, 0.2702702702702703], [-35.5179821, -61.0012823, 0.5405405405405406], [51.1638175, 10.4478313, 0.2702702702702703], [23.6585116, -102.0077097, 0.2702702702702703], [-6.8699697, -75.0458515, 0.2702702702702703], [46.193239, -82.347307, 0.2702702702702703], [46.7985624, 8.2319736, 0.2702702702702703], [46.7985624, 8.2319736, 0.2702702702702703], [6.3110548, 20.5447525, 0.5405405405405406], [39.7837304, -100.445882, 0.8108108108108109], [49.4871968, 31.2718321, 0.2702702702702703], [-8.4305889, 115.23368569206687, 0.2702702702702703], [-35.5179821, -61.0012823, 0.2702702702702703], [51.1638175, 10.4478313, 0.2702702702702703], [10.7226226, -10.7083587, 0.2702702702702703], [35.6639401, 139.6700217, 0.2702702702702703], [46.7985624, 8.2319736, 0.2702702702702703], [39.294076, 35.2316631, 0.5405405405405406], [6.3110548, 20.5447525, 0.2702702702702703], [39.7837304, -100.445882, 10.0]],
+                {
+  "minOpacity": 0.5,
+  "maxZoom": 1,
+  "radius": 25,
+  "blur": 15,
+}
+            );
+        
+    
+            heat_map_b4a0ba653eb1511f038a1c84e9550f0f.addTo(map_0f27e6550fc8078166d3fee06cc4abf3);
+        
+</script>
+</html>

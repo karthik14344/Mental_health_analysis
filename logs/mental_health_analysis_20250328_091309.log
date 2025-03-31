@@ -1,0 +1,38 @@
+2025-03-28 09:13:10,032 - utils.logging_config - INFO - Initializing system components...
+2025-03-28 09:13:50,550 - utils.logging_config - INFO - Extracting posts from target subreddits...
+2025-03-28 09:15:11,572 - utils.logging_config - INFO - Performing risk classification...
+2025-03-28 09:15:13,456 - utils.logging_config - INFO - Processing geolocation data...
+2025-03-28 09:16:19,539 - utils.logging_config - INFO - Raw data saved to output\raw_posts_20250328_091619.csv
+2025-03-28 09:16:19,562 - utils.logging_config - INFO - Processed data saved to output\processed_posts_20250328_091619.csv
+2025-03-28 09:16:20,240 - utils.logging_config - INFO - Geolocated data saved to output\geolocated_data_20250328_091619.csv
+2025-03-28 09:16:20,241 - utils.logging_config - INFO - Generating visualizations...
+2025-03-28 09:16:20,285 - utils.logging_config - INFO - Analysis completed successfully
+2025-03-28 09:16:20,285 - utils.logging_config - INFO - Full analysis report saved to output\analysis_report_20250328_091619.txt
+2025-03-28 09:16:20,286 - utils.logging_config - INFO - 
+Top 5 Locations with Highest Crisis Discussions:
+2025-03-28 09:16:20,286 - utils.logging_config - INFO - country
+America         1
+Australia       2
+Canada          1
+Egypt           1
+France          1
+French          2
+Germany         1
+Mexico          1
+Peru            1
+Spanish         1
+Swiss           1
+Switzerland     1
+UK              2
+US              3
+Ukraine         1
+chinese         1
+french          1
+germany         1
+guinea          1
+mexican         1
+swiss           1
+turkey          2
+uk              1
+us             37
+dtype: int64
